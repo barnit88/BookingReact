@@ -1,0 +1,52 @@
+/* @import Third from '../Images/Third.jpg' */
+/* .fix{
+   
+    width:100%;
+    height: 1400px;
+}
+.or{
+    position: relative;
+
+    height: 1000px;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.or img{
+    width: 20%;
+} */
+.carousel {
+margin-bottom: 4rem;
+position: relative;   
+
+}       
+  
+.carousel-inner {
+background: red;
+}
+
+.carousel-caption {
+bottom: 3rem;
+z-index: 10;
+}
+
+.carousel-item {
+height: 50rem;
+/* height: 20%; */
+}    
+
+.carousel-item > img {
+position: relative;
+top: 0;
+left: 0;    
+height: 50rem;
+/* height: 40%; */
+object-fit: unset;    
+}
+
+#features{
+    background-image: url(../Images/Fifth.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
